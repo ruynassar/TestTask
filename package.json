@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@vue/composition-api": "^1.4.3",
+    "body-parser": "^1.19.1",
+    "cros": "^1.0.1",
+    "express": "^4.17.2",
+    "mongodb": "^4.2.2"
+  },
+  "name": "appointment-book",
+  "version": "1.0.0",
+  "description": "full-stack appointment system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Roya nassar",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
